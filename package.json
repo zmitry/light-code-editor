@@ -1,5 +1,6 @@
 {
   "name": "light-code-editor",
+  "version": "1.0.1",
   "repository": {
     "url": "https://github.com/zhDmitry/light-code-editor",
     "type": "github"
@@ -17,16 +18,17 @@
     "@storybook/addons": "^4.0.4",
     "@storybook/react": "^4.0.4",
     "babel-loader": "^8.0.4",
-    "typescript": "^3.1.6"
-  },
-  "dependencies": {
+    "typescript": "^3.1.6",
     "gh-pages": "^2.0.1",
     "react": "^16.6.1",
     "react-dom": "^16.6.1"
   },
+  "dependencies": {
+  },
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "build": "tsc --build"
+    "build": "tsc --build",
+    "deploy": "gh-pages  -d storybook-static"
   }
 }
