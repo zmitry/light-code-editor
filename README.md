@@ -6,7 +6,7 @@ yarn add light-code-editor
 npm install light-code-editor
 ```
 
-# how to user
+# How to use [codesandbox](https://codesandbox.io/s/k91x8593w3)
 
 1. include styles "light-code-editor/styles.css"
 2. create parser
