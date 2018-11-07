@@ -125,3 +125,6 @@ This is a singleton, you do not need to instantiate this object.
 
 - `.add( element )` Adds SelectHelper methods to `element`.
 - `element.insertAtCursor( string )` Inserts `string` into the `element` before the current cursor position.
+
+### Contributions
+Opened to contributions, it would be nice to have some predefined parsers and intergrations for react, vue, etc
